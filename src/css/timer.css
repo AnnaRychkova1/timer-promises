@@ -13,12 +13,18 @@
     transition: color 0.25s;
 }
 
-#datetime-picker:active {
+#datetime-picker:hover {
+    border: 1px solid #000;
+}
+
+#datetime-picker:focus-visible {
     color: #000;
+    border: 1px solid #4E75FF;
 }
 
 #datetime-picker:disabled {
     color: #808080;
+    border: 1px solid #808080;
 }
 
 button {
